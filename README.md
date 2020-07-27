@@ -1,6 +1,7 @@
 # First Capstone
 
 ## Proposed App Name/s: Acclimate
+**Link to live app proposal: https://mischkiey.github.io/thinkful-ei-first-capstone/**
 
 ### Description
 * Acclimate is an informational and utility **disaster management** app
@@ -84,15 +85,11 @@
 4. I should be able to verify information exchanged in/on public forums - Very Low/If time even allows
 
 ### Wireframes
-1. Landing Page
-2. Signup Page
-3. Login Page
-4. Dashboard
-    4.1. Nav Bar
-    4.2. Disaster Information and Management Plan Pane
-    4.3. Task Pane
-    4.4. Inventory & Shopping List Pane
-5. Search Form
+1. Landing Page: https://mischkiey.github.io/thinkful-ei-first-capstone/wireframes-html/landing-screen.html
+2. Signup Page: https://mischkiey.github.io/thinkful-ei-first-capstone/wireframes-html/signup-screen.html
+3. Login Page: https://mischkiey.github.io/thinkful-ei-first-capstone/wireframes-html/login-screen.html
+4. Dashboard: https://mischkiey.github.io/thinkful-ei-first-capstone/wireframes-html/expanded-dashboard.html
+5. Search Form: https://mischkiey.github.io/thinkful-ei-first-capstone/wireframes-html/search-form-screen.html
 
 ### Color Palette/Theme
 **Color Palette**
