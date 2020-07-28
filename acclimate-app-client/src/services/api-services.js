@@ -2,8 +2,8 @@ import config from '../config'
 
 // For later: Refactor into async-await for practice
 const APIServices = {
-   // Are parameters?
    // Refactor GET
+   // Define settings here and modify function to accept a body parameter
 
     post(endpoint, settings) {
         return fetch(`${config.API_TOKEN}/${endpoint}`, settings)

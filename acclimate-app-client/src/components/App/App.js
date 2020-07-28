@@ -16,10 +16,10 @@ class App extends React.Component {
                 <Header />
                 <main className='App'>
                     <Switch>
-                        <Route path={'/landingpage'} component={LandingPage} />                   
                         <Route path={'/loginpage'} component={LoginPage} />
                         <Route path={'/dashboard'} component={Dashboard} />
                         <Route path={'/searchpage'} component={SearchPage} />
+                        <Route path={'/'} component={LandingPage} />                   
                     </Switch>
                 </main>
             </>

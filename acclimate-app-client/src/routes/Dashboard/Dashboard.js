@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DisasterPlan from '../../components/DisasterPlan/DisasterPlan';
+import DisasterProgram from '../../components/DisasterProgram/DisasterProgram';
 import TaskList from '../../components/TaskList/TaskList';
 import ShoppingList from '../../components/ShoppingList/ShoppingList';
 
@@ -8,7 +8,7 @@ class Dashboard extends Component {
     render () {
         return (
             <>
-                <DisasterPlan />
+                <DisasterProgram />
                 <TaskList />
                 <ShoppingList />
             </>
