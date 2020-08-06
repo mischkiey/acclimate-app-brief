@@ -14,5 +14,5 @@
 * Users may add steps from the chosen disaster plan to their lists where appropriate at the push of a button
 
 ## Documentation/Screenshots
-![Add New Item](/assets/images/screenshots/add-new-item)
-![Add Step to List](/assets/images/screenshots/add-step-to-list)
+![Add New Item](/images/screenshots/add-new-item)
+![Add Step to List](/images/screenshots/add-step-to-list)
