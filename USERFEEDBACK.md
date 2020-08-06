@@ -16,42 +16,46 @@ Standard Link = https://github.com/mischkiey/acclimate-app-client
 
 #### Developers
 
-1.1. Experienced
-
 Joshua Struve, classmate
-> User Feedback: Have multiple search inputs/single click/press buttons
-[] Action:
+> User Feedback: The search form should llow multiple search inputs
+* Action:
+
+> User Feedback: The search form should have single-click/press inputs
+* Action: After careful consideration, I decided not to implement this functionality for the ff reasons:
+** 
 
 Minh Nguyen, classmate
 > User Feedback: I should be able to view new password requirements
-[X] Action: Error is displayed for when password does not meet requirements
-[X] Action: Added tooltip on hover with password hints
+* Action: Error is displayed for when password does not meet requirements
+* Action: Added tooltip on hover with password hints
+
+Muhajir Sayer
+> User Feedback: Acclimate is super cool! I could see myself using this to make sure I’m prepared for natural disasters in the future. The design is clean, and the app is easy and intuitive to use, with great features and functionality
 
 Renata Dickinson, classmate
 > User Feedback: I should be able to understand what the lists are for/I should be able to see an instructions page
-[X] Action: Added tooltips to buttons/icons with no labels
-[X] Action: Added a help page route
-[X] Action: When a new user logs in for the first the time, he or she is redirected to the help page
-
+* Action: Added tooltips to buttons/icons with no labels
+* Action: Added a help page route
+* Action: When a new user logs in for the first the time, he or she is redirected to the help page
 
 > User Feedback: Add further username validation (spaces not allowed before or after) on sign up
-[X] Action: Added simple username validation on client side which checks for spaces as user types
+* Action: Added simple username validation on client side which checks for spaces as user types
 
 > User Feedback: Implement XSS
-[X] Action: Implemented simple sanitation methods on data being returned to cient side
+* Action: Implemented simple sanitation methods on data being returned to cient side
 
 Wesley Rou, classmate
 > There is a lot of white on white on white. Maybe a pastel palette would help pop the components out even more
-[] Action: 
+* Action: 
 
 > The little face on the landing page is cute, but there's a lot of white space to the right of it. I wonder whether it should go up above to the left of the app name
-[] Action: 
+* Action: 
 
 > After login, I get navigated to the empty dashboard. Maybe after registration, login automatically and then redirect to the search page to bypass the step where a first time user has to navigate to the search manually
-[X] Action: When a new user logs in for the first the time, he or she is redirected to the help page
+* Action: When a new user logs in for the first the time, he or she is redirected to the help page
 
 > Visually I like the buttons, but I think you lost a fair bit of clarity on what some of them do (specifically, I clicked on the + button on the task list 10 times before realizing that it was to add an entry into the list because I thought it was going to generate a list for me like it says in the instructions)
-[X] Action: Added tooltips to buttons onhover to clear ambiguity
+* Action: Added tooltips to buttons onhover to clear ambiguity
 
 #### Non-developers/Consumers
 1.
