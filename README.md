@@ -1,6 +1,7 @@
 # First Capstone App Name: Acclimate
 
 **Link to live app: https://acclimate-app.vercel.app/**
+
 **Link to live app proposal: https://mischkiey.github.io/thinkful-ei-first-capstone/**
 
 ## Description
@@ -14,5 +15,6 @@
 * Users may add steps from the chosen disaster plan to their lists where appropriate at the push of a button
 
 ## Documentation/Screenshots
-![Add New Item](/images/screenshots/add-new-item)
-![Add Step to List](/images/screenshots/add-step-to-list)
+![Add New Item](/images/screenshots/add-new-item.png)
+
+![Add Step to List](/images/screenshots/add-step-to-list.png)
