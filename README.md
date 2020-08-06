@@ -1,6 +1,6 @@
-# First Capstone
+# First Capstone App Name: Acclimate
 
-## Proposed App Name/s: Acclimate
+**Link to live app: https://acclimate-app.vercel.app/**
 **Link to live app proposal: https://mischkiey.github.io/thinkful-ei-first-capstone/**
 
 ### Description

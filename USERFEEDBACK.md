@@ -16,7 +16,7 @@ Standard Link = https://github.com/mischkiey/acclimate-app-client
 
 #### Developers
 
-Joshua Struve, classmate
+1. Joshua Struve, classmate
 > User Feedback: The search form should llow multiple search inputs
 * Action:
 
@@ -24,27 +24,27 @@ Joshua Struve, classmate
 * Action: After careful consideration, I decided not to implement this functionality for the ff reasons:
 ** 
 
-Minh Nguyen, classmate
+2. Minh Nguyen, classmate
 > User Feedback: I should be able to view new password requirements
-* Action: Error is displayed for when password does not meet requirements
-* Action: Added tooltip on hover with password hints
+* Action: Error message is displayed on top of the form whenever password does not meet a certain requirement
+* Action: Added tooltip that displays password hints on input hover
 
-Muhajir Sayer
+3. Muhajir Sayer
 > User Feedback: Acclimate is super cool! I could see myself using this to make sure I’m prepared for natural disasters in the future. The design is clean, and the app is easy and intuitive to use, with great features and functionality
 
-Renata Dickinson, classmate
+4. Renata Dickinson, classmate
 > User Feedback: I should be able to understand what the lists are for/I should be able to see an instructions page
 * Action: Added tooltips to buttons/icons with no labels
-* Action: Added a help page route
-* Action: When a new user logs in for the first the time, he or she is redirected to the help page
+* Action: Added a help page
+* Action: When a new user logs in for the first time, he or she is redirected to the help page
 
-> User Feedback: Add further username validation (spaces not allowed before or after) on sign up
+> User Feedback: Add further username validation (spaces not allowed anywhere) on sign up
 * Action: Added simple username validation on client side which checks for spaces as user types
 
 > User Feedback: Implement XSS
 * Action: Implemented simple sanitation methods on data being returned to cient side
 
-Wesley Rou, classmate
+5. Wesley Rou, classmate
 > There is a lot of white on white on white. Maybe a pastel palette would help pop the components out even more
 * Action: 
 
@@ -59,3 +59,4 @@ Wesley Rou, classmate
 
 #### Non-developers/Consumers
 1.
+
