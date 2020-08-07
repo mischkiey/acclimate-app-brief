@@ -4,7 +4,9 @@
 
 ## Links
 Live app - https://acclimate-app.vercel.app
+
 GitHub client repo - https://github.com/mischkiey/acclimate-app-client
+
 GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
 <p>&nbsp;</p>
@@ -14,27 +16,27 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 ### Sources
 1. Developers
 2. Non-developers/Consumers
-    2.1. Tech-savvy
-    2.2. Non-tech-savvy 
+2.1. Tech-savvy
+2.2. Non-tech-savvy 
 
 <p>&nbsp;</p>
 
 #### Developers
 
 1. Joshua Struve, classmate
-*> User Feedback: The search form should llow multiple search inputs
+> User Feedback: The search form should llow multiple search inputs
 ** Action:
 
 <p>&nbsp;</p>
 
-*> User Feedback: The search form should have single-click/press inputs
+> User Feedback: The search form should have single-click/press inputs
 ** Action: After careful consideration, I decided not to implement this functionality for the ff reasons:
 ***
 
 <p>&nbsp;</p>
 
 2. Minh Nguyen, classmate
-*> User Feedback: I should be able to view new password requirements
+> User Feedback: I should be able to view new password requirements
 ** Action: Error message is displayed on top of the form whenever password does not meet a certain requirement
 ** Action: Added tooltip that displays password hints on input hover
 
