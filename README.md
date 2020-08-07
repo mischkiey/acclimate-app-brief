@@ -42,7 +42,7 @@
 
 
 
-6. **Compressed Dashboard** - This is how the dashboard looks by default. The dashboard contains disaster management plan and the task and shopping lists.
+6. **Compressed Dashboard** - This is how the dashboard looks by default. The dashboard contains the disaster management plan/s and the task and shopping lists.
 ![Compressed Dashboard](/images/screenshots/compressed-dashboard.png)
 
 
