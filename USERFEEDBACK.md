@@ -94,5 +94,8 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
 #### Non-developers/Consumers
 
-1.
+##### Tech-savvy Consumers
 
+1. Daniel Camargo, 23 years old
+    > Everything is working as expected. My biggest thing is that I know what the app is for but I am unsure about what to do.
+    I made a lot of improvements on the user's onboarding experience. First, the landing page acquaints the new user to the app by letting him/her know what it is and what it is for. After successfully signing up and logging in, the new user is redirected to a help page that reiterates the description of the app and summary of how it's used. I also added a mini catalog of all icons that a user may use to interact with the app.
