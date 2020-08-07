@@ -52,7 +52,7 @@
 
 
 
-8. **Item Options**
+8. **Item Options** - The user may either check, edit, or delete an item.
 ![Item Options](/images/screenshots/item-options.png)
 
 
