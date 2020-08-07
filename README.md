@@ -4,9 +4,13 @@
 
 **Link to live app proposal: https://mischkiey.github.io/thinkful-ei-first-capstone/**
 
+<p>&nbsp;</p>
+
 ## Description
 * Acclimate is an informational and utility **disaster management** app
 * It aims to provide accurate, reliable, and useful information and tools to be able to handle impending disasters systematically and effectively
+
+<p>&nbsp;</p>
 
 ## How It Works
 As the user, I can:
@@ -14,6 +18,8 @@ As the user, I can:
 * Access disaster management plans that has steps for before, during, and after the event
 * Create and customize a task list and a shopping list, utilities to help me in the implementation of my chosen plan
 * Add steps from my chosen disaster plan to my lists (where appropriate) at the push of a button
+
+<p>&nbsp;</p>
 
 ## Documentation/Screenshots
 
