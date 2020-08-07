@@ -19,64 +19,64 @@ As the user, I can:
 
 1. **Landing Page** - The first page the user sees, this page contains meta data on the app, such as app description and summary.
 ![Landing Page](/images/screenshots/landing-page.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 2. **Signup Page** - To get started, the user must create an account by supplying a unique username, full name, and password.
 ![Signup Page](/images/screenshots/signup-page.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 3. **Password Hint** - To successfully create an account, the user must come up with a password that meets requirements. Such requirements are displayed via a tooltip that appears on input hover.
 ![Password Hint Tooltip](/images/screenshots/password-hint.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 4. **Login Page**
 ![Login Page](/images/screenshots/login-page.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 5. **Search Database Form** - This form contains options for available disaster management plans.
 ![Search Database](/images/screenshots/search-database.png)
+ 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 6. **Compressed Dashboard** - This is how the dashboard looks by default. The dashboard contains the disaster management plan/s and the task and shopping lists.
 ![Compressed Dashboard](/images/screenshots/compressed-dashboard.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 7. **Expanded Dashboard**
 ![Expanded Dashboard](/images/screenshots/expanded-dashboard.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 8. **Item Options** - The user may either check, edit, or delete an item.
 ![Item Options](/images/screenshots/item-options.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 9. **Add New Item** - To add a new item, the user must type in a value and submit by either pressing enter on keyboard or clicking on the plus icon.
 ![Add New Item](/images/screenshots/add-new-item.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 10. **Add Step to List** - Some steps in the disaster management plan are 'itemable', indicated by the add-task or add-cart icons. Click on the icon to add the shorthand version of the step to the appropriate list.
 ![Add Step to List](/images/screenshots/add-step-to-list.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 11. **Nav Bar** - The nav bar contains all available options that the user may need.
 ![Nav Bar](/images/screenshots/nav-bar.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 12. **Help Page** - This page contains all pertinent information for the user to be able to use the app as intended.
 ![Help Page](/images/screenshots/help-page.png)
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 ## Technology Used
 1. HTML, CSS, JavaScript
 2. React
