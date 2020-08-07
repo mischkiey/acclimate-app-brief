@@ -28,8 +28,6 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
     * Action:
 
-<p>&nbsp;</p>
-
     > User Feedback: The search form should have single-click/press inputs
 
     * Action: After careful consideration, I decided not to implement this functionality for the ff reasons:
