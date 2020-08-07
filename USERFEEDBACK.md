@@ -1,10 +1,13 @@
 # Acclimate.
 
-## Link to live static app
-Standard link =  https://acclimate-app.vercel.app/loginpage
+<p>&nbsp;</p>
 
-## Link to GitHub repo
-Standard Link = https://github.com/mischkiey/acclimate-app-client
+## Links
+Live app - https://acclimate-app.vercel.app
+GitHub client repo - https://github.com/mischkiey/acclimate-app-client
+GitHub API repo - https://github.com/mischkiey/acclimate-app-server
+
+<p>&nbsp;</p>
 
 ## Consolidated User Experience Feedback
 
@@ -14,20 +17,26 @@ Standard Link = https://github.com/mischkiey/acclimate-app-client
     2.1. Tech-savvy
     2.2. Non-tech-savvy 
 
+<p>&nbsp;</p>
+
 #### Developers
 
 1. Joshua Struve, classmate
-> User Feedback: The search form should llow multiple search inputs
-* Action:
+*> User Feedback: The search form should llow multiple search inputs
+** Action:
 
-> User Feedback: The search form should have single-click/press inputs
-* Action: After careful consideration, I decided not to implement this functionality for the ff reasons:
-** 
+<p>&nbsp;</p>
+
+*> User Feedback: The search form should have single-click/press inputs
+** Action: After careful consideration, I decided not to implement this functionality for the ff reasons:
+***
+
+<p>&nbsp;</p>
 
 2. Minh Nguyen, classmate
-> User Feedback: I should be able to view new password requirements
-* Action: Error message is displayed on top of the form whenever password does not meet a certain requirement
-* Action: Added tooltip that displays password hints on input hover
+*> User Feedback: I should be able to view new password requirements
+** Action: Error message is displayed on top of the form whenever password does not meet a certain requirement
+** Action: Added tooltip that displays password hints on input hover
 
 3. Muhajir Sayer
 > User Feedback: Acclimate is super cool! I could see myself using this to make sure I’m prepared for natural disasters in the future. The design is clean, and the app is easy and intuitive to use, with great features and functionality
