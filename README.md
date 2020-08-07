@@ -28,7 +28,7 @@ As the user, I can:
 
 <p>&nbsp;</p>
 
-2. **Signup Page** - To get started, the user must create an account by supplying a full name, a unique username (checked against the database in real time), and password.
+2. **Signup Page** - To get started, the user must create an account by supplying a full name, a unique username (checked against the database in real time), and a password.
 ![Signup Page](/images/screenshots/signup-page.png)
 
 <p>&nbsp;</p>
