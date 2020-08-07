@@ -21,7 +21,7 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
 #### Developers
 
-**1. Joshua Struve, classmate**
+1. Joshua Struve, classmate
     > The search form should show multiple search inputs.
     
     This will be implemented in the next release.
@@ -34,7 +34,7 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
 <p>&nbsp;</p>
 
-**2. Minh Nguyen, classmate**
+2. Minh Nguyen, classmate
     > I should be able to view new password requirements.
     
     The app validates the password as the user types. An error message is displayed on top of the form whenever the password does not meet a certain requirement.
@@ -42,12 +42,12 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
 <p>&nbsp;</p>
 
-**3. Muhajir Sayer**
+3. Muhajir Sayer
     > Acclimate is super cool! I could see myself using this to make sure I’m prepared for natural disasters in the future. The design is clean, and the app is easy and intuitive to use, with great features and functionality.
 
 <p>&nbsp;</p>
 
-**4. Renata Dickinson, classmate**
+4. Renata Dickinson, classmate
     > I should be able to understand what the lists are for/I should be able to see an instructions page.
     
     I added tooltips to buttons with no labels/that may seem unintuitive.
@@ -67,7 +67,7 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
     
 <p>&nbsp;</p>
 
-**5. Wesley Rou, classmate**
+5. Wesley Rou, classmate
     > There is a lot of white on white on white. Maybe a pastel palette would help pop the components out even more.
     
     Action: 
