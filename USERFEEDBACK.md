@@ -25,11 +25,13 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
 1. Joshua Struve, classmate
 > User Feedback: The search form should llow multiple search inputs
+
 ** Action:
 
 <p>&nbsp;</p>
 
 > User Feedback: The search form should have single-click/press inputs
+
 ** Action: After careful consideration, I decided not to implement this functionality for the ff reasons:
 ***
 
@@ -37,6 +39,7 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 
 2. Minh Nguyen, classmate
 > User Feedback: I should be able to view new password requirements
+
 ** Action: Error message is displayed on top of the form whenever password does not meet a certain requirement
 ** Action: Added tooltip that displays password hints on input hover
 
