@@ -22,60 +22,61 @@ As the user, I can:
 
 <p>&nbsp;</p>
 
-2. **Signup Page** - To get started, the user must create an account by supplying a unique username, full name, and password.
+2. **Signup Page** - To get started, the user must create an account by supplying a full name, a unique username (checked against the database in real time), and password.
 ![Signup Page](/images/screenshots/signup-page.png)
 
 <p>&nbsp;</p>
 
-3. **Password Hint** - To successfully create an account, the user must come up with a password that meets requirements. Such requirements are displayed via a tooltip that appears on input hover.
+3. **Password Hint** - To successfully create an account, the user must come up with a password that meets requirements. Such requirements are displayed via a tooltip that appears on input hover. Just like the username, the password is validated as the user types.
 ![Password Hint Tooltip](/images/screenshots/password-hint.png)
 
 <p>&nbsp;</p>
 
-4. **Login Page**
+4. **Login Page** - After creating an account, the new user is redirected to the login page for authentication.
 ![Login Page](/images/screenshots/login-page.png)
 
 <p>&nbsp;</p>
 
-5. **Search Database Form** - This form contains options for available disaster management plans.
+5. **Help Page** - Upon successful login, the help page is first displayed for the new user. This page contains all pertinent information for the user to be able to use the app as intended. This page also contains acknowledgements and any resources used. Note: There are also **tooltips** in place that appear on hover for easier reference.
+![Help Page](/images/screenshots/help-page.png)
+
+<p>&nbsp;</p>
+
+6. **Search Database Form** - This form contains options for all available disaster management plans that a user may choose from. Upon submission of this form, the chosen plan will be pinned to the user's dashboard.
 ![Search Database](/images/screenshots/search-database.png)
  
 <p>&nbsp;</p>
 
-6. **Compressed Dashboard** - This is how the dashboard looks by default. The dashboard contains the disaster management plan/s and the task and shopping lists.
+7. **Compressed Dashboard** - This is how the dashboard looks by default. Clicking on the unfold-more icon on the bottom right of the disaster plan will expand this component.
 ![Compressed Dashboard](/images/screenshots/compressed-dashboard.png)
 
 <p>&nbsp;</p>
 
-7. **Expanded Dashboard**
+8. **Expanded Dashboard** - This is how the dashboard looks like when fully expanded. The dashboard contains the disaster management plan/s and the task and shopping lists.
 ![Expanded Dashboard](/images/screenshots/expanded-dashboard.png)
 
 <p>&nbsp;</p>
 
-8. **Item Options** - The user may either check, edit, or delete an item.
+9. **Item Options** - The user may either check, edit, or delete an item in his lists.
 ![Item Options](/images/screenshots/item-options.png)
 
 <p>&nbsp;</p>
 
-9. **Add New Item** - To add a new item, the user must type in a value and submit by either pressing enter on keyboard or clicking on the plus icon.
+10. **Add New Item** - To add a new item, the user must type in a value and submit by either pressing enter on keyboard or clicking on the add-item icon.
 ![Add New Item](/images/screenshots/add-new-item.png)
 
 <p>&nbsp;</p>
 
-10. **Add Step to List** - Some steps in the disaster management plan are 'itemable', indicated by the add-task or add-cart icons. Click on the icon to add the shorthand version of the step to the appropriate list.
+11. **Add Step to List** - Some steps in the disaster management plan are 'itemable', indicated by the add-task or add-cart icons at the end. Click on the icon to add the shorthand version of the step to the appropriate list.
 ![Add Step to List](/images/screenshots/add-step-to-list.png)
 
 <p>&nbsp;</p>
 
-11. **Nav Bar** - The nav bar contains all available options that the user may need.
+12. **Nav Bar** - The nav bar contains all available links to navigate the user to different views.
 ![Nav Bar](/images/screenshots/nav-bar.png)
 
 <p>&nbsp;</p>
 
-12. **Help Page** - This page contains all pertinent information for the user to be able to use the app as intended.
-![Help Page](/images/screenshots/help-page.png)
-
-<p>&nbsp;</p>
 
 ## Technology Used
 1. HTML, CSS, JavaScript
