@@ -16,8 +16,8 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 ### Sources
 1. Developers
 2. Non-developers/Consumers
-    2.1. Tech-savvy
-    2.2. Non-tech-savvy 
+        2.1. Tech-savvy
+        2.2. Non-tech-savvy 
 
 <p>&nbsp;</p>
 
@@ -26,7 +26,7 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 1. Joshua Struve, classmate
 > User Feedback: The search form should llow multiple search inputs
 
-** Action:
+* Action:
 
 <p>&nbsp;</p>
 
