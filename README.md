@@ -91,45 +91,36 @@ As the user, I can:
 #### Create User Account
 Returns JSON data about new user account
 
-* URL
+* **URL**
 
-&nbsp; /api/user
+    `/api/user`
 
-* Method
+* **Method**
 
-&nbsp; POST
+    `POST`
 
-* URL Params
+* **URL Params**
 
 &nbsp;
 
-* Data Params
+* **Data Params**
 
-&nbsp; Required
+    **Required:**
+    `{user_name, user_password, user_full_name}`
 
-&nbsp; {user_name, user_password, user_full_name}
-
-* Success Response
-** Code: 200
-
-&nbsp; Headers: {location: /api/user/:user_id}
-
-&nbsp; Content: {user_name, user_full_name, user_id, user_date_created}
+* **Success Response**
+    * **Code**: 200 <br />
+    **Headers**: `{location: /api/user/:user_id}` <br />
+    **Content**: `{user_name, user_full_name, user_id, user_date_created}`
 
 * Error Response
-** Code: 400
-
-&nbsp; Content: {error: "Missing 'user_name/user_password' in body"}
-
-&nbsp; Content: {error: 'Password must be longer than 8 characters'}
-
-&nbsp; Content: {error: 'Password must be shorter than 72 characters'}
-
-&nbsp; Content: {error: 'Password must must not start or end with spaces'}
-
-&nbsp; Content: {error: 'Password must contain 1 upper case, 1 lower case, 1 number, and 1 special character'}
-
-&nbsp; Content: {error: 'Username not available'}
+    * **Code**: 400 <br />
+    **Content**: `{error: "Missing 'user_name/user_password' in body"}` <br />
+    **Content**: `{error: 'Password must be longer than 8 characters'}` <br />
+    **Content**: `{error: 'Password must be shorter than 72 characters'}` <br />
+    **Content**: `{error: 'Password must must not start or end with spaces'}` <br />
+    **Content**: `{error: 'Password must contain 1 upper case, 1 lower case, 1 number, and 1 special character'}` <br />
+    **Content**: `{error: 'Username not available'}`
 
 <p>&nbsp;</p>
 
@@ -138,11 +129,11 @@ Returns 201 Created
 
 * URL
 
-&nbsp; /api/user/program
+    /api/user/program
 
 * Method
 
-&nbsp; POST
+    POST
 
 * URL Params
 
@@ -150,21 +141,21 @@ Returns 201 Created
 
 * Data Params
 
-&nbsp; Required
+    Required
 
-&nbsp; {disaster_program_id}
+    {disaster_program_id}
 
 * Success Response
 ** Code: 201
 
-&nbsp; Content: {user_id, disaster_program_id}
+    Content: {user_id, disaster_program_id}
 
 * Error Response
 ** Code: 400
 
-&nbsp; Content: {error: 'No program selected'}
+    Content: {error: 'No program selected'}
 
-&nbsp; Content: {error: 'Program already added'}
+    Content: {error: 'Program already added'}
 
 <p>&nbsp;</p>
 
@@ -173,11 +164,11 @@ Returns JSON data about new user task
 
 * URL
 
-&nbsp; /api/user/task
+    /api/user/task
 
 * Method
 
-&nbsp; POST
+    POST
 
 * URL Params
 
@@ -185,19 +176,19 @@ Returns JSON data about new user task
 
 * Data Params
 
-&nbsp; Required
+    Required
 
-&nbsp; {user_id, user_task}
+    {user_id, user_task}
 
 * Success Response
 ** Code: 201
 
-&nbsp; Content: {user_task_id, user_task, user_task_completed, user_id}
+    Content: {user_task_id, user_task, user_task_completed, user_id}
 
 * Error Response
 ** Code: 400
 
-&nbsp; Content: {error: "Missing 'task' details in body"}
+    Content: {error: "Missing 'task' details in body"}
 
 <p>&nbsp;</p>
 
@@ -206,11 +197,11 @@ Returns JSON data about new user shopping item
 
 * URL
 
-&nbsp; /api/user/shopping
+    /api/user/shopping
 
 * Method
 
-&nbsp; POST
+    POST
 
 * URL Params
 
@@ -218,19 +209,19 @@ Returns JSON data about new user shopping item
 
 * Data Params
 
-&nbsp; Required
+    Required
 
-&nbsp; {user_id, user_shopping_item}
+    {user_id, user_shopping_item}
 
 * Success Response
 ** Code: 201
 
-&nbsp; Content: {user_shopping_item_id, user_shopping_item, user_shopping_item_completed, user_id}
+    Content: {user_shopping_item_id, user_shopping_item, user_shopping_item_completed, user_id}
 
 * Error Response
 ** Code: 400
 
-&nbsp; Content: {error: "Missing 'shopping' details in body"}
+    Content: {error: "Missing 'shopping' details in body"}
 
 <p>&nbsp;</p>
 
