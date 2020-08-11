@@ -88,113 +88,148 @@ As the user, I can:
 
 ### Post User Endpoints
 
-1. Create User Account
+#### Create User Account
 Returns JSON data about new user account
 
 * URL
+
 &nbsp; /api/user
 
 * Method
+
 &nbsp; POST
 
 * URL Params
+
 &nbsp;
 
 * Data Params
+
 &nbsp; Required
+
 &nbsp; {user_name, user_password, user_full_name}
 
 * Success Response
 ** Code: 200
+
 &nbsp; Headers: {location: /api/user/:user_id}
+
 &nbsp; Content: {user_name, user_full_name, user_id, user_date_created}
 
 * Error Response
 ** Code: 400
+
 &nbsp; Content: {error: "Missing 'user_name/user_password' in body"}
+
 &nbsp; Content: {error: 'Password must be longer than 8 characters'}
+
 &nbsp; Content: {error: 'Password must be shorter than 72 characters'}
+
 &nbsp; Content: {error: 'Password must must not start or end with spaces'}
+
 &nbsp; Content: {error: 'Password must contain 1 upper case, 1 lower case, 1 number, and 1 special character'}
+
 &nbsp; Content: {error: 'Username not available'}
 
 <p>&nbsp;</p>
 
-2. Add Program to User's Program List
+#### Add Program to User's Program List
 Returns 201 Created 
 
 * URL
+
 &nbsp; /api/user/program
 
 * Method
+
 &nbsp; POST
 
 * URL Params
+
 &nbsp;
 
 * Data Params
+
 &nbsp; Required
+
 &nbsp; {disaster_program_id}
 
 * Success Response
 ** Code: 201
+
 &nbsp; Content: {user_id, disaster_program_id}
 
 * Error Response
 ** Code: 400
+
 &nbsp; Content: {error: 'No program selected'}
+
 &nbsp; Content: {error: 'Program already added'}
 
 <p>&nbsp;</p>
 
-3. Add Task to User's Task List
+#### Add Task to User's Task List
 Returns JSON data about new user task
 
 * URL
+
 &nbsp; /api/user/task
 
 * Method
+
 &nbsp; POST
 
 * URL Params
+
 &nbsp;
 
 * Data Params
+
 &nbsp; Required
+
 &nbsp; {user_id, user_task}
 
 * Success Response
 ** Code: 201
+
 &nbsp; Content: {user_task_id, user_task, user_task_completed, user_id}
 
 * Error Response
 ** Code: 400
+
 &nbsp; Content: {error: "Missing 'task' details in body"}
 
 <p>&nbsp;</p>
 
-4. Add Shopping Item to User's Shopping List
+#### Add Shopping Item to User's Shopping List
 Returns JSON data about new user shopping item
 
 * URL
+
 &nbsp; /api/user/shopping
 
 * Method
+
 &nbsp; POST
 
 * URL Params
+
 &nbsp;
 
 * Data Params
+
 &nbsp; Required
+
 &nbsp; {user_id, user_shopping_item}
 
 * Success Response
 ** Code: 201
+
 &nbsp; Content: {user_shopping_item_id, user_shopping_item, user_shopping_item_completed, user_id}
 
 * Error Response
 ** Code: 400
+
 &nbsp; Content: {error: "Missing 'shopping' details in body"}
 
 <p>&nbsp;</p>
