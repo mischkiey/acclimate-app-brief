@@ -100,12 +100,13 @@ Returns JSON data about new user account
     `POST`
 
 * **URL Params**
-
-&nbsp;
+    
+    None
 
 * **Data Params**
 
     **Required:**
+
     `{user_name, user_password, user_full_name}`
 
 * **Success Response**
@@ -113,7 +114,7 @@ Returns JSON data about new user account
     **Headers**: `{location: /api/user/:user_id}` <br />
     **Content**: `{user_name, user_full_name, user_id, user_date_created}`
 
-* Error Response
+* **Error Response**
     * **Code**: 400 <br />
     **Content**: `{error: "Missing 'user_name/user_password' in body"}` <br />
     **Content**: `{error: 'Password must be longer than 8 characters'}` <br />
