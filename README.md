@@ -110,76 +110,73 @@ Returns JSON data about new user account
     `{user_name, user_password, user_full_name}`
 
 * **Success Response**
-    * **Code**: 200 <br />
-    **Headers**: `{location: /api/user/:user_id}` <br />
-    **Content**: `{user_name, user_full_name, user_id, user_date_created}`
+    * **Code:** 200 <br />
+    **Headers:** `{location: /api/user/:user_id}` <br />
+    **Content:** `{user_name, user_full_name, user_id, user_date_created}`
 
 * **Error Response**
-    * **Code**: 400 <br />
-    **Content**: `{error: "Missing 'user_name/user_password' in body"}` <br />
-    **Content**: `{error: 'Password must be longer than 8 characters'}` <br />
-    **Content**: `{error: 'Password must be shorter than 72 characters'}` <br />
-    **Content**: `{error: 'Password must must not start or end with spaces'}` <br />
-    **Content**: `{error: 'Password must contain 1 upper case, 1 lower case, 1 number, and 1 special character'}` <br />
-    **Content**: `{error: 'Username not available'}`
+    * **Code:** 400 <br />
+    **Content:** `{error: "Missing 'user_name/user_password' in body"}` <br />
+    **Content:** `{error: 'Password must be longer than 8 characters'}` <br />
+    **Content:** `{error: 'Password must be shorter than 72 characters'}` <br />
+    **Content:** `{error: 'Password must must not start or end with spaces'}` <br />
+    **Content:** `{error: 'Password must contain 1 upper case, 1 lower case, 1 number, and 1 special character'}` <br />
+    **Content:** `{error: 'Username not available'}`
 
 <p>&nbsp;</p>
 
 #### Add Program to User's Program List
 Returns 201 Created 
 
-* URL
+* **URL**
 
-    /api/user/program
+    `/api/user/program`
 
-* Method
+* **Method**
 
-    POST
+    `POST`
 
-* URL Params
+* **URL Params**
 
-&nbsp;
+    None
 
-* Data Params
+* **Data Params**
 
-    Required
+    **Required:**
 
-    {disaster_program_id}
+    `{disaster_program_id}`
 
-* Success Response
-** Code: 201
+* **Success Response**
+    * **Code:** 201 <br />
+    **Content:** `{user_id, disaster_program_id}`
 
-    Content: {user_id, disaster_program_id}
-
-* Error Response
-** Code: 400
-
-    Content: {error: 'No program selected'}
-
-    Content: {error: 'Program already added'}
+* **Error Response**
+    * **Code:** 400 <br />
+    **Content:** `{error: 'No program selected'}` <br />
+    **Content:** `{error: 'Program already added'}`
 
 <p>&nbsp;</p>
 
 #### Add Task to User's Task List
-Returns JSON data about new user task
+Returns 201 Created and JSON data about new user task
 
-* URL
+* **URL**
 
-    /api/user/task
+    `/api/user/task`
 
-* Method
+* **Method**
 
-    POST
+    `POST`
 
-* URL Params
+* **URL Params**
 
-&nbsp;
+    None
 
-* Data Params
+* **Data Params**
 
-    Required
+    **Required:**
 
-    {user_id, user_task}
+    `{user_id, user_task}`
 
 * Success Response
 ** Code: 201
