@@ -20,7 +20,6 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 <p>&nbsp;</p>
 
 #### Developers
-
 1. Joshua Struve, classmate
     > The search form should show multiple search inputs.
     
@@ -95,7 +94,6 @@ GitHub API repo - https://github.com/mischkiey/acclimate-app-server
 #### Non-developers/Consumers
 
 ##### Tech-savvy Consumers
-
 1. Daniel Camargo, 23 years old
     > Everything is working as expected. My biggest thing is that I know what the app is for but I am unsure about what to do.
 
