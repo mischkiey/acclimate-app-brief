@@ -119,18 +119,17 @@ Returns JSON data about user programs
     None
 
 * **Data Params**
-
     * **Required:**
 
-    None
+        None
 
 * **Success Response**
     * **Code:** 200 <br />
-    **Content:** `{[]]}`
+    **Content:** `{[]]}` <br />
     **Content:** `{[{...}, {...}]]}`
 
 * **Error Response**
-    * **Code:** 400 <br />
+    * **Code:** 400
 
     OR
 
@@ -155,18 +154,17 @@ Returns JSON data about user tasks
     None
 
 * **Data Params**
-
     * **Required:**
 
-    None
+        None
 
 * **Success Response**
     * **Code:** 200 <br />
-    **Content:** `{[]]}`
+    **Content:** `{[]]}` <br />
     **Content:** `{[{...}, {...}]]}`
 
 * **Error Response**
-    * **Code:** 400 <br />
+    * **Code:** 400
 
     OR
 
@@ -191,18 +189,17 @@ Returns JSON data about user shopping items
     None
 
 * **Data Params**
-
     * **Required:**
 
-    None
+        None
 
 * **Success Response**
     * **Code:** 200 <br />
-    **Content:** `{[]]}`
+    **Content:** `{[]]}` <br />
     **Content:** `{[{...}, {...}]]}`
 
 * **Error Response**
-    * **Code:** 400 <br />
+    * **Code:** 400=
 
     OR
 
@@ -229,10 +226,9 @@ Returns JSON data about new user account
     None
 
 * **Data Params**
-
     * **Required:**
 
-    `{user_name, user_password, user_full_name}`
+        `{user_name, user_password, user_full_name}`
 
 * **Success Response**
     * **Code:** 200 <br />
@@ -271,10 +267,9 @@ Returns 201 Created
     None
 
 * **Data Params**
-
     * **Required:**
 
-    `{disaster_program_id}`
+        `{disaster_program_id}`
 
 * **Success Response**
     * **Code:** 201 <br />
@@ -308,10 +303,9 @@ Returns 201 Created and JSON data about new user task
     None
 
 * **Data Params**
-
     * **Required:**
 
-    `{user_id, user_task}`
+        `{user_id, user_task}`
 
 * **Success Response**
     * **Code:** 201 <br />
@@ -344,10 +338,9 @@ Returns 201 Created and JSON data about new user shopping item
     None
 
 * **Data Params**
-
     * **Required:**
 
-    `{user_id, user_shopping_item}`
+        `{user_id, user_shopping_item}`
 
 * **Success Response**
     * **Code:** 201 <br />
@@ -382,10 +375,9 @@ Returns 200 OK
     `userTaskID = integer`
 
 * **Data Params**
-
     * **Required:**
 
-    `{user_task_id, user_task, user_task_completed}`
+        `{user_task_id, user_task, user_task_completed}`
 
 * **Success Response**
     * **Code:** 200 <br />
@@ -417,10 +409,9 @@ Returns 200 OK
     `userShoppingID = integer`
 
 * **Data Params**
-
     * **Required:**
 
-    `{user_shopping_item_id, user_shopping_item, user_shopping_item_completed}`
+        `{user_shopping_item_id, user_shopping_item, user_shopping_item_completed}`
 
 * **Success Response**
     * **Code:** 200 <br />
