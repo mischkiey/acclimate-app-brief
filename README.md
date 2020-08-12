@@ -101,6 +101,43 @@ As the user, I can:
 
 ## Server Documentation
 
+### POST Auth Endpoint
+
+#### Submit User Credentials
+Returns JSON data containing auth token
+
+* **URL**
+
+    `/api/auth/login`
+
+* **Method**
+
+    `POST`
+
+* **URL Params**
+    
+    None
+
+* **Data Params**
+    * **Required:**
+
+        `{user_name, user_password}`
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{authToken: token}`
+
+* **Error Response**
+    * **Code:** 400 <br />
+    **Content:** `{error: "Missing 'user_name/user_password' in body"}` <br />
+
+        OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Invalid username or password'}` <br />
+
+<p>&nbsp;</p>
+
 ### GET Disaster Endpoints
 
 #### Retrieve Disaster Programs
