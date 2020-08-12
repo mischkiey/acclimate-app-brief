@@ -101,6 +101,111 @@ As the user, I can:
 
 ## Server Documentation
 
+### GET Disaster Endpoints
+
+#### Retrieve Disaster Programs
+Returns 200 and JSON data about disaster programs
+
+* **URL**
+
+    `/api/disaster`
+
+* **Method**
+
+    `GET`
+
+* **URL Params**
+
+    None
+
+* **Data Params**
+    
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{[]]}` <br />
+    **Content:** `{[{...}, {...}]]}`
+
+* **Error Response**
+    * **Code:** 400
+
+        OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
+<p>&nbsp;</p>
+
+#### Retrieve Disaster by ID
+Returns 200 and JSON data about selected disaster
+
+* **URL**
+
+    `/api/disaster/:disasterID`
+
+* **Method**
+
+    `GET`
+
+* **URL Params**  
+    * **Required:**
+
+        `disasterID = <integer>`
+
+* **Data Params**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{[]]}` <br />
+    **Content:** `{[{...}]}`
+
+* **Error Response**
+    * **Code:** 400
+
+        OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
+<p>&nbsp;</p>
+
+#### Retrieve Disaster Program by ID
+Returns 200 and JSON data about selected disaster program
+
+* **URL**
+
+    `/api/disaster/program/:disasterID`
+
+* **Method**
+
+    `GET`
+
+* **URL Params**
+    
+    None
+
+* **Data Params**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{[]]}` <br />
+    **Content:** `{[{...}]}`
+
+* **Error Response**
+    * **Code:** 400
+
+        OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
+<p>&nbsp;</p>
+
 ### GET User Endpoints
 
 #### Retrieve User Programs
@@ -119,9 +224,8 @@ Returns JSON data about user programs
     None
 
 * **Data Params**
-    * **Required:**
 
-        None
+    None
 
 * **Success Response**
     * **Code:** 200 <br />
@@ -154,9 +258,8 @@ Returns JSON data about user tasks
     None
 
 * **Data Params**
-    * **Required:**
 
-        None
+    None
 
 * **Success Response**
     * **Code:** 200 <br />
@@ -189,9 +292,8 @@ Returns JSON data about user shopping items
     None
 
 * **Data Params**
-    * **Required:**
 
-        None
+    None
 
 * **Success Response**
     * **Code:** 200 <br />
@@ -371,8 +473,9 @@ Returns 200 OK
     `PATCH`
 
 * **URL Params**
+    * **Required:**
 
-    `userTaskID = integer`
+        `userTaskID = <integer>`
 
 * **Data Params**
     * **Required:**
@@ -405,8 +508,9 @@ Returns 200 OK
     `PATCH`
 
 * **URL Params**
+    * **Required:**
 
-    `userShoppingID = integer`
+        `userShoppingID = <integer>`
 
 * **Data Params**
     * **Required:**
@@ -441,8 +545,9 @@ Returns 200 OK
     `DELETE`
 
 * **URL Params**
+    * **Required:**
 
-    `disasterProgramID = integer`
+        `disasterProgramID = <integer>`
 
 * **Data Params**
 
@@ -473,8 +578,9 @@ Returns 200 OK
     `DELETE`
 
 * **URL Params**
+    * **Required:**
 
-    `userTaskID = integer`
+        `userTaskID = <integer>`
 
 * **Data Params**
 
@@ -505,8 +611,9 @@ Returns 200 OK
     `DELETE`
 
 * **URL Params**
+    * **Required:**
 
-    `userShoppingItemID = integer`
+        `userShoppingItemID = <integer>`
 
 * **Data Params**
 
