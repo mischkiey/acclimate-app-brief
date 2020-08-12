@@ -7,6 +7,21 @@
 
 <p>&nbsp;</p>
 
+## Table of Contents
+1. Description
+2. How It Works
+3. Client Documentation/Screenshots
+4. Server/API Documentation
+    1. POST Auth Endpoint
+    2. GET Disaster Endpoints
+    3. GET User Endpoints
+    4. POST User Endpoints
+    5. PATCH User Endpoints
+    6. DELETE User Endpoints 
+5. Technologies
+
+<p>&nbsp;</p>
+
 ## Description
 * Acclimate is an informational and utility **disaster management** app
 * It aims to provide accurate, reliable, and useful information and tools to be able to handle impending disasters systematically and effectively
