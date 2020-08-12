@@ -101,7 +101,117 @@ As the user, I can:
 
 ## Server Documentation
 
-### Post User Endpoints
+### GET User Endpoints
+
+#### Retrieve User Programs
+Returns JSON data about user programs
+
+* **URL**
+
+    `/api/user/program`
+
+* **Method**
+
+    `GET`
+
+* **URL Params**
+    
+    None
+
+* **Data Params**
+
+    * **Required:**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{[]]}`
+    **Content:** `{[{...}, {...}]]}`
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
+<p>&nbsp;</p>
+
+#### Retrieve User Tasks
+Returns JSON data about user tasks
+
+* **URL**
+
+    `/api/user/task`
+
+* **Method**
+
+    `GET`
+
+* **URL Params**
+    
+    None
+
+* **Data Params**
+
+    * **Required:**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{[]]}`
+    **Content:** `{[{...}, {...}]]}`
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
+<p>&nbsp;</p>
+
+#### Retrieve User Shopping Items
+Returns JSON data about user shopping items
+
+* **URL**
+
+    `/api/user/shopping`
+
+* **Method**
+
+    `GET`
+
+* **URL Params**
+    
+    None
+
+* **Data Params**
+
+    * **Required:**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{[]]}`
+    **Content:** `{[{...}, {...}]]}`
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
+<p>&nbsp;</p>
+
+### POST User Endpoints
 
 #### Create User Account
 Returns JSON data about new user account
@@ -138,6 +248,11 @@ Returns JSON data about new user account
     **Content:** `{error: 'Password must contain 1 upper case, 1 lower case, 1 number, and 1 special character'}` <br />
     **Content:** `{error: 'Username not available'}`
 
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
 <p>&nbsp;</p>
 
 #### Add Program to User's Program List
@@ -170,6 +285,11 @@ Returns 201 Created
     **Content:** `{error: 'No program selected'}` <br />
     **Content:** `{error: 'Program already added'}`
 
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
 <p>&nbsp;</p>
 
 #### Add Task to User's Task List
@@ -201,6 +321,11 @@ Returns 201 Created and JSON data about new user task
     * **Code:** 400 <br />
     **Content:** `{error: "Missing 'task' details in body"}`
 
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
 <p>&nbsp;</p>
 
 #### Add Shopping Item to User's Shopping List
@@ -231,6 +356,11 @@ Returns 201 Created and JSON data about new user shopping item
 * **Error Response**
     * **Code:** 400 <br />
     **Content:** `{error: "Missing 'shopping' details in body"}`
+
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
 
 <p>&nbsp;</p>
 
@@ -264,6 +394,11 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
 <p>&nbsp;</p>
 
 #### Edit Shopping Item in User's Shopping List
@@ -294,6 +429,11 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
 <p>&nbsp;</p>
 
 ### DELETE User Endpoints
@@ -323,6 +463,11 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
 <p>&nbsp;</p>
 
 #### Remove Task in User's Task List
@@ -350,6 +495,11 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
+
 <p>&nbsp;</p>
 
 #### Remove Shopping Item in User's Shopping List
@@ -376,6 +526,11 @@ Returns 200 OK
 
 * **Error Response**
     * **Code:** 400 <br />
+
+    OR
+
+    * **Code:** 401 <br />  
+    **Content:** `{error: 'Unauthorized'}`
 
 <p>&nbsp;</p>
 
