@@ -105,7 +105,7 @@ Returns JSON data about new user account
 
 * **Data Params**
 
-    **Required:**
+    * **Required:**
 
     `{user_name, user_password, user_full_name}`
 
@@ -142,7 +142,7 @@ Returns 201 Created
 
 * **Data Params**
 
-    **Required:**
+    * **Required:**
 
     `{disaster_program_id}`
 
@@ -174,7 +174,7 @@ Returns 201 Created and JSON data about new user task
 
 * **Data Params**
 
-    **Required:**
+    * **Required:**
 
     `{user_id, user_task}`
 
@@ -205,7 +205,7 @@ Returns 201 Created and JSON data about new user shopping item
 
 * **Data Params**
 
-    **Required:**
+    * **Required:**
 
     `{user_id, user_shopping_item}`
 
