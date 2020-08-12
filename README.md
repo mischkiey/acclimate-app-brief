@@ -178,48 +178,44 @@ Returns 201 Created and JSON data about new user task
 
     `{user_id, user_task}`
 
-* Success Response
-** Code: 201
+* **Success Response**
+    * **Code:** 201 <br />
+    **Content:** `{user_task_id, user_task, user_task_completed, user_id}`
 
-    Content: {user_task_id, user_task, user_task_completed, user_id}
-
-* Error Response
-** Code: 400
-
-    Content: {error: "Missing 'task' details in body"}
+* **Error Response**
+    * **Code:** 400 <br />
+    **Content:** `{error: "Missing 'task' details in body"}`
 
 <p>&nbsp;</p>
 
 #### Add Shopping Item to User's Shopping List
-Returns JSON data about new user shopping item
+Returns 201 Created and JSON data about new user shopping item
 
-* URL
+* **URL**
 
-    /api/user/shopping
+    `/api/user/shopping`
 
-* Method
+* **Method**
 
-    POST
+    `POST`
 
-* URL Params
+* **URL Params**
 
-&nbsp;
+    None
 
-* Data Params
+* **Data Params**
 
-    Required
+    **Required:**
 
-    {user_id, user_shopping_item}
+    `{user_id, user_shopping_item}`
 
-* Success Response
-** Code: 201
+* **Success Response**
+    * **Code:** 201 <br />
+    **Content:** `{user_shopping_item_id, user_shopping_item, user_shopping_item_completed, user_id}`
 
-    Content: {user_shopping_item_id, user_shopping_item, user_shopping_item_completed, user_id}
-
-* Error Response
-** Code: 400
-
-    Content: {error: "Missing 'shopping' details in body"}
+* **Error Response**
+    * **Code:** 400 <br />
+    **Content:** `{error: "Missing 'shopping' details in body"}`
 
 <p>&nbsp;</p>
 
