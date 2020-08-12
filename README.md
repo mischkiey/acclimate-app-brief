@@ -131,7 +131,7 @@ Returns JSON data about user programs
 * **Error Response**
     * **Code:** 400
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -166,7 +166,7 @@ Returns JSON data about user tasks
 * **Error Response**
     * **Code:** 400
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -199,9 +199,9 @@ Returns JSON data about user shopping items
     **Content:** `{[{...}, {...}]]}`
 
 * **Error Response**
-    * **Code:** 400=
+    * **Code:** 400
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -244,7 +244,7 @@ Returns JSON data about new user account
     **Content:** `{error: 'Password must contain 1 upper case, 1 lower case, 1 number, and 1 special character'}` <br />
     **Content:** `{error: 'Username not available'}`
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -280,7 +280,7 @@ Returns 201 Created
     **Content:** `{error: 'No program selected'}` <br />
     **Content:** `{error: 'Program already added'}`
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -315,7 +315,7 @@ Returns 201 Created and JSON data about new user task
     * **Code:** 400 <br />
     **Content:** `{error: "Missing 'task' details in body"}`
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -350,7 +350,7 @@ Returns 201 Created and JSON data about new user shopping item
     * **Code:** 400 <br />
     **Content:** `{error: "Missing 'shopping' details in body"}`
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -386,7 +386,7 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -420,7 +420,7 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -454,7 +454,7 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -486,7 +486,7 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
@@ -518,7 +518,7 @@ Returns 200 OK
 * **Error Response**
     * **Code:** 400 <br />
 
-    OR
+        OR
 
     * **Code:** 401 <br />  
     **Content:** `{error: 'Unauthorized'}`
