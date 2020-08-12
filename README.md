@@ -234,6 +234,151 @@ Returns 201 Created and JSON data about new user shopping item
 
 <p>&nbsp;</p>
 
+### PATCH User Endpoints
+
+#### Edit Task in User's Task List
+Returns 200 OK
+
+* **URL**
+
+    `/api/user/task/:userTaskID`
+
+* **Method**
+
+    `PATCH`
+
+* **URL Params**
+
+    `userTaskID = integer`
+
+* **Data Params**
+
+    * **Required:**
+
+    `{user_task_id, user_task, user_task_completed}`
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{message: 'Task successfully updated'}`
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+<p>&nbsp;</p>
+
+#### Edit Shopping Item in User's Shopping List
+Returns 200 OK
+
+* **URL**
+
+    `/api/user/shopping/:userShoppingItemID`
+
+* **Method**
+
+    `PATCH`
+
+* **URL Params**
+
+    `userShoppingID = integer`
+
+* **Data Params**
+
+    * **Required:**
+
+    `{user_shopping_item_id, user_shopping_item, user_shopping_item_completed}`
+
+* **Success Response**
+    * **Code:** 200 <br />
+    **Content:** `{message: 'Shopping successfully updated'}`
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+<p>&nbsp;</p>
+
+### DELETE User Endpoints
+
+#### Remove Program in User's Program List
+Returns 200 OK
+
+* **URL**
+
+    `/api/user/:disasterProgramID`
+
+* **Method**
+
+    `DELETE`
+
+* **URL Params**
+
+    `disasterProgramID = integer`
+
+* **Data Params**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+<p>&nbsp;</p>
+
+#### Remove Task in User's Task List
+Returns 200 OK
+
+* **URL**
+
+    `/api/user/task/:userTaskID`
+
+* **Method**
+
+    `DELETE`
+
+* **URL Params**
+
+    `userTaskID = integer`
+
+* **Data Params**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+<p>&nbsp;</p>
+
+#### Remove Shopping Item in User's Shopping List
+Returns 200 OK
+
+* **URL**
+
+    `/api/user/shopping/:userShoppingItemID`
+
+* **Method**
+
+    `DELETE`
+
+* **URL Params**
+
+    `userShoppingItemID = integer`
+
+* **Data Params**
+
+    None
+
+* **Success Response**
+    * **Code:** 200 <br />
+
+* **Error Response**
+    * **Code:** 400 <br />
+
+<p>&nbsp;</p>
+
 ## Technology Used
 1. HTML, CSS, JavaScript
 2. React
