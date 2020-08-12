@@ -161,8 +161,16 @@ Returns 200 and JSON data about disaster programs
 
 * **Success Response**
     * **Code:** 200 <br />
-    **Content:** `{[]]}` <br />
-    **Content:** `{[{...}, {...}]]}`
+    **Content:** `{[{...disasterProgram}]}`
+
+    ``` js
+    const disasterProgram = {
+        disaster_id: program.disaster_id,
+        disaster_program_id: program.disaster_program_id,
+        disaster_program_information: program.disaster_program_information,
+        disaster_plan_steps: steps,
+    };
+    ```
 
 * **Error Response**
     * **Code:** 400
@@ -196,8 +204,16 @@ Returns 200 and JSON data about selected disaster
 
 * **Success Response**
     * **Code:** 200 <br />
-    **Content:** `{[]]}` <br />
-    **Content:** `{[{...}]}`
+    **Content:** `{[{...disasterProgram}]}`
+
+    ``` js
+    const disasterProgram = {
+        disaster_id: program.disaster_id,
+        disaster_program_id: program.disaster_program_id,
+        disaster_program_information: program.disaster_program_information,
+        disaster_plan_steps: steps,
+    };
+    ```
 
 * **Error Response**
     * **Code:** 400
@@ -231,7 +247,16 @@ Returns 200 and JSON data about selected disaster program
 * **Success Response**
     * **Code:** 200 <br />
     **Content:** `{[]]}` <br />
-    **Content:** `{[{...}]}`
+    **Content:** `{[{...disasterProgram}]}`
+
+    ``` js
+    const disasterProgram = {
+        disaster_id: program.disaster_id,
+        disaster_program_id: program.disaster_program_id,
+        disaster_program_information: program.disaster_program_information,
+        disaster_plan_steps: steps,
+    };
+    ``` 
 
 * **Error Response**
     * **Code:** 400
